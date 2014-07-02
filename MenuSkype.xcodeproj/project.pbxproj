@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABB7B5671963037D00A32909 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB7B5661963037D00A32909 /* Foundation.framework */; };
+		ABB7B5691963037D00A32909 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB7B5681963037D00A32909 /* CoreGraphics.framework */; };
+		ABB7B56B1963037D00A32909 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB7B56A1963037D00A32909 /* UIKit.framework */; };
+		ABB7B5711963037D00A32909 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABB7B56F1963037D00A32909 /* InfoPlist.strings */; };
+		ABB7B5731963037D00A32909 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB7B5721963037D00A32909 /* main.m */; };
+		ABB7B5771963037D00A32909 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB7B5761963037D00A32909 /* AppDelegate.m */; };
+		ABB7B5791963037D00A32909 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB7B5781963037D00A32909 /* Images.xcassets */; };
+		ABB7B5801963037D00A32909 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB7B57F1963037D00A32909 /* XCTest.framework */; };
+		ABB7B5811963037D00A32909 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB7B5661963037D00A32909 /* Foundation.framework */; };
+		ABB7B5821963037D00A32909 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB7B56A1963037D00A32909 /* UIKit.framework */; };
+		ABB7B58A1963037D00A32909 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABB7B5881963037D00A32909 /* InfoPlist.strings */; };
+		ABB7B58C1963037D00A32909 /* MenuSkypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB7B58B1963037D00A32909 /* MenuSkypeTests.m */; };
+		ABB7B59A196303B000A32909 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB7B599196303B000A32909 /* RootViewController.m */; };
+		ABB7B59D196303E500A32909 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB7B59C196303E500A32909 /* FirstViewController.m */; };
+		ABB7B5A1196303FD00A32909 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB7B5A0196303FD00A32909 /* SecondViewController.m */; };
+		ABB7B5A41963040500A32909 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB7B5A31963040500A32909 /* ThirdViewController.m */; };
+		ABB7B5A71963041200A32909 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB7B5A61963041200A32909 /* FourthViewController.m */; };
+		ABB7B5AB1963043100A32909 /* MenuSkypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB7B5AA1963043100A32909 /* MenuSkypeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABB7B5831963037D00A32909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB7B55B1963037D00A32909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB7B5621963037D00A32909;
+			remoteInfo = MenuSkype;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABB7B5631963037D00A32909 /* MenuSkype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuSkype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB7B5661963037D00A32909 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABB7B5681963037D00A32909 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABB7B56A1963037D00A32909 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABB7B56E1963037D00A32909 /* MenuSkype-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MenuSkype-Info.plist"; sourceTree = "<group>"; };
+		ABB7B5701963037D00A32909 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABB7B5721963037D00A32909 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABB7B5741963037D00A32909 /* MenuSkype-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MenuSkype-Prefix.pch"; sourceTree = "<group>"; };
+		ABB7B5751963037D00A32909 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABB7B5761963037D00A32909 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABB7B5781963037D00A32909 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABB7B57E1963037D00A32909 /* MenuSkypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuSkypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB7B57F1963037D00A32909 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ABB7B5871963037D00A32909 /* MenuSkypeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MenuSkypeTests-Info.plist"; sourceTree = "<group>"; };
+		ABB7B5891963037D00A32909 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABB7B58B1963037D00A32909 /* MenuSkypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuSkypeTests.m; sourceTree = "<group>"; };
+		ABB7B598196303B000A32909 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		ABB7B599196303B000A32909 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		ABB7B59B196303E500A32909 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		ABB7B59C196303E500A32909 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		ABB7B59F196303FD00A32909 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		ABB7B5A0196303FD00A32909 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		ABB7B5A21963040500A32909 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		ABB7B5A31963040500A32909 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		ABB7B5A51963041200A32909 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		ABB7B5A61963041200A32909 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		ABB7B5A91963043100A32909 /* MenuSkypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuSkypeViewController.h; sourceTree = "<group>"; };
+		ABB7B5AA1963043100A32909 /* MenuSkypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuSkypeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB7B5601963037D00A32909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB7B5691963037D00A32909 /* CoreGraphics.framework in Frameworks */,
+				ABB7B56B1963037D00A32909 /* UIKit.framework in Frameworks */,
+				ABB7B5671963037D00A32909 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB7B57B1963037D00A32909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB7B5801963037D00A32909 /* XCTest.framework in Frameworks */,
+				ABB7B5821963037D00A32909 /* UIKit.framework in Frameworks */,
+				ABB7B5811963037D00A32909 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABB7B55A1963037D00A32909 = {
+			isa = PBXGroup;
+			children = (
+				ABB7B56C1963037D00A32909 /* MenuSkype */,
+				ABB7B5851963037D00A32909 /* MenuSkypeTests */,
+				ABB7B5651963037D00A32909 /* Frameworks */,
+				ABB7B5641963037D00A32909 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB7B5641963037D00A32909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB7B5631963037D00A32909 /* MenuSkype.app */,
+				ABB7B57E1963037D00A32909 /* MenuSkypeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB7B5651963037D00A32909 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABB7B5661963037D00A32909 /* Foundation.framework */,
+				ABB7B5681963037D00A32909 /* CoreGraphics.framework */,
+				ABB7B56A1963037D00A32909 /* UIKit.framework */,
+				ABB7B57F1963037D00A32909 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABB7B56C1963037D00A32909 /* MenuSkype */ = {
+			isa = PBXGroup;
+			children = (
+				ABB7B5751963037D00A32909 /* AppDelegate.h */,
+				ABB7B5761963037D00A32909 /* AppDelegate.m */,
+				ABB7B598196303B000A32909 /* RootViewController.h */,
+				ABB7B599196303B000A32909 /* RootViewController.m */,
+				ABB7B5A81963041B00A32909 /* Menu */,
+				ABB7B59E196303EA00A32909 /* VC */,
+				ABB7B5781963037D00A32909 /* Images.xcassets */,
+				ABB7B56D1963037D00A32909 /* Supporting Files */,
+			);
+			path = MenuSkype;
+			sourceTree = "<group>";
+		};
+		ABB7B56D1963037D00A32909 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABB7B56E1963037D00A32909 /* MenuSkype-Info.plist */,
+				ABB7B56F1963037D00A32909 /* InfoPlist.strings */,
+				ABB7B5721963037D00A32909 /* main.m */,
+				ABB7B5741963037D00A32909 /* MenuSkype-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABB7B5851963037D00A32909 /* MenuSkypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB7B58B1963037D00A32909 /* MenuSkypeTests.m */,
+				ABB7B5861963037D00A32909 /* Supporting Files */,
+			);
+			path = MenuSkypeTests;
+			sourceTree = "<group>";
+		};
+		ABB7B5861963037D00A32909 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABB7B5871963037D00A32909 /* MenuSkypeTests-Info.plist */,
+				ABB7B5881963037D00A32909 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABB7B59E196303EA00A32909 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				ABB7B59B196303E500A32909 /* FirstViewController.h */,
+				ABB7B59C196303E500A32909 /* FirstViewController.m */,
+				ABB7B59F196303FD00A32909 /* SecondViewController.h */,
+				ABB7B5A0196303FD00A32909 /* SecondViewController.m */,
+				ABB7B5A21963040500A32909 /* ThirdViewController.h */,
+				ABB7B5A31963040500A32909 /* ThirdViewController.m */,
+				ABB7B5A51963041200A32909 /* FourthViewController.h */,
+				ABB7B5A61963041200A32909 /* FourthViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		ABB7B5A81963041B00A32909 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				ABB7B5A91963043100A32909 /* MenuSkypeViewController.h */,
+				ABB7B5AA1963043100A32909 /* MenuSkypeViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB7B5621963037D00A32909 /* MenuSkype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB7B58F1963037D00A32909 /* Build configuration list for PBXNativeTarget "MenuSkype" */;
+			buildPhases = (
+				ABB7B55F1963037D00A32909 /* Sources */,
+				ABB7B5601963037D00A32909 /* Frameworks */,
+				ABB7B5611963037D00A32909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenuSkype;
+			productName = MenuSkype;
+			productReference = ABB7B5631963037D00A32909 /* MenuSkype.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABB7B57D1963037D00A32909 /* MenuSkypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB7B5921963037D00A32909 /* Build configuration list for PBXNativeTarget "MenuSkypeTests" */;
+			buildPhases = (
+				ABB7B57A1963037D00A32909 /* Sources */,
+				ABB7B57B1963037D00A32909 /* Frameworks */,
+				ABB7B57C1963037D00A32909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB7B5841963037D00A32909 /* PBXTargetDependency */,
+			);
+			name = MenuSkypeTests;
+			productName = MenuSkypeTests;
+			productReference = ABB7B57E1963037D00A32909 /* MenuSkypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB7B55B1963037D00A32909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Charles-Hubert Basuiau";
+				TargetAttributes = {
+					ABB7B57D1963037D00A32909 = {
+						TestTargetID = ABB7B5621963037D00A32909;
+					};
+				};
+			};
+			buildConfigurationList = ABB7B55E1963037D00A32909 /* Build configuration list for PBXProject "MenuSkype" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABB7B55A1963037D00A32909;
+			productRefGroup = ABB7B5641963037D00A32909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB7B5621963037D00A32909 /* MenuSkype */,
+				ABB7B57D1963037D00A32909 /* MenuSkypeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB7B5611963037D00A32909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB7B5711963037D00A32909 /* InfoPlist.strings in Resources */,
+				ABB7B5791963037D00A32909 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB7B57C1963037D00A32909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB7B58A1963037D00A32909 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB7B55F1963037D00A32909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB7B5A1196303FD00A32909 /* SecondViewController.m in Sources */,
+				ABB7B5771963037D00A32909 /* AppDelegate.m in Sources */,
+				ABB7B5A41963040500A32909 /* ThirdViewController.m in Sources */,
+				ABB7B5731963037D00A32909 /* main.m in Sources */,
+				ABB7B5AB1963043100A32909 /* MenuSkypeViewController.m in Sources */,
+				ABB7B59A196303B000A32909 /* RootViewController.m in Sources */,
+				ABB7B5A71963041200A32909 /* FourthViewController.m in Sources */,
+				ABB7B59D196303E500A32909 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB7B57A1963037D00A32909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB7B58C1963037D00A32909 /* MenuSkypeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABB7B5841963037D00A32909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB7B5621963037D00A32909 /* MenuSkype */;
+			targetProxy = ABB7B5831963037D00A32909 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABB7B56F1963037D00A32909 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB7B5701963037D00A32909 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABB7B5881963037D00A32909 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB7B5891963037D00A32909 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABB7B58D1963037D00A32909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABB7B58E1963037D00A32909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABB7B5901963037D00A32909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MenuSkype/MenuSkype-Prefix.pch";
+				INFOPLIST_FILE = "MenuSkype/MenuSkype-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABB7B5911963037D00A32909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MenuSkype/MenuSkype-Prefix.pch";
+				INFOPLIST_FILE = "MenuSkype/MenuSkype-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ABB7B5931963037D00A32909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MenuSkype.app/MenuSkype";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MenuSkype/MenuSkype-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MenuSkypeTests/MenuSkypeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ABB7B5941963037D00A32909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MenuSkype.app/MenuSkype";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MenuSkype/MenuSkype-Prefix.pch";
+				INFOPLIST_FILE = "MenuSkypeTests/MenuSkypeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB7B55E1963037D00A32909 /* Build configuration list for PBXProject "MenuSkype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB7B58D1963037D00A32909 /* Debug */,
+				ABB7B58E1963037D00A32909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB7B58F1963037D00A32909 /* Build configuration list for PBXNativeTarget "MenuSkype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB7B5901963037D00A32909 /* Debug */,
+				ABB7B5911963037D00A32909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABB7B5921963037D00A32909 /* Build configuration list for PBXNativeTarget "MenuSkypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB7B5931963037D00A32909 /* Debug */,
+				ABB7B5941963037D00A32909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABB7B55B1963037D00A32909 /* Project object */;
+}
