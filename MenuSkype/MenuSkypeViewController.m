@@ -106,7 +106,7 @@
 #pragma mark Contents
 
 -(void)setMenuContent {
-    //Clean all (can be improve)
+    //Clean all + call ViewDidAppear to load infos if needed
     for (UIView *tmpView in [menu subviews]) {
         [tmpView removeFromSuperview];
     }
@@ -132,7 +132,7 @@
 }
 
 -(void)setScrollViewContent {
-    //Clean all (can be improve)
+    //Clean all + call ViewDidAppear to load infos if needed
     for (UIView *tmpView in [content subviews]) {
         [tmpView removeFromSuperview];
     }
